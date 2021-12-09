@@ -1,2 +1,2 @@
-# lottery_system
-This is a basic number drawing system.
+# Lottery_system
+This is a basic system of drawing numbers in html, javascript
