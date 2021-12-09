@@ -1,0 +1,79 @@
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!--CRIAR UM SISTEMA DE SORTEIO NÚMERO USANDO CÓDIGO BASE E LINGUAGEM SIMPLES E PLATICO INTENDIMENTO!-->
+<!DOCTYPE html>
+
+<html lang="pt">
+  
+<head>
+       
+        <title>Calculadora em JavaScript</title>
+   
+    </head>
+    <!--Texto em HTML-->
+    <body>
+       
+        Sorteio por números básico feito em javascript, Html
+        <br>
+        <br>
+        Número do Sorteio é: 1 // Você pode Alterar ele na validação de Ganhar linha 37:39
+        <br>
+        <br>Retire seu Número: <button onclick="ide()">Sortear</button> <!--Inicio da função do número da sorte-->
+       
+       <style>
+            *{
+
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight:500;
+
+            }
+            button{
+                background-color:green;
+                color:white;
+                padding: 5px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius:60px;
+                transition: 0.5s;
+            }
+            button:hover {
+                background-color:rgb(77, 214, 77);
+                color:black;
+            }
+
+        </style>
+
+    <script>
+
+        function ide() { // inicializador da função
+
+            let id = Math.floor(Math.random() * 5) // Se quer um número maior altere o 5, o contador vai até o 5, para maior contagem de números Altere!
+
+            alert(`Seu id é: ${id}`)
+
+        //validação de Ganhar
+
+        if (id == 1 ) { //Alete seu número da sorte, alterando o número 1!
+
+            return alert(`Parabéns você ganhou!`) //Mensagem para o ganhador do jogo!
+        }
+
+        else
+
+        return alert(`Seu Número é: ${id} Tente na Próxima não foi dessa vez`)// Mensagem para o perdedor do game
+    }
+
+
+    
+    </script>
+
+    </body>   
+
+</html>
+
+<!--FIM DO SISTEMA DE CRIAÇÃO E GERADOR DE CÓDIGOS.-->
